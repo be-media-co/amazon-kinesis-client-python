@@ -1,3 +1,13 @@
+> **NOTE:** We agreed to temporarily fork the [upstream repository](https://github.com/be-media-co/amazon-kinesis-client-python)
+to [fix](https://github.com/be-media-co/amazon-kinesis-client-python/commit/ed5be596986e10988c9da8347c7fe57de15c77b9) the following vulnerabilities:
+> - CVE-2022-42003
+> - CVE-2022-3509
+> - CVE-2022-3510
+> - GHSA-xpw8-rcwv-8f8p
+> 
+> The vulnerabilities were already fixed in the [official amazon-kclpy package](https://github.com/awslabs/amazon-kinesis-client-python/pull/234),
+> however, no release was provided, yet.
+
 # Amazon Kinesis Client Library for Python
 
 [![Version](https://img.shields.io/pypi/v/amazon-kclpy.svg?style=flat)](https://pypi.org/project/amazon-kclpy/) [![UnitTestCoverage](https://github.com/awslabs/amazon-kinesis-client-python/actions/workflows/run-unit-tests.yml/badge.svg)](https://github.com/awslabs/amazon-kinesis-client-python/actions/workflows/run-unit-tests.yml)
