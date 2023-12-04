@@ -8,6 +8,9 @@ to [fix](https://github.com/be-media-co/amazon-kinesis-client-python/commit/ed5b
 > The vulnerabilities were already fixed in the [official amazon-kclpy package](https://github.com/awslabs/amazon-kinesis-client-python/pull/234),
 > however, no release was provided, yet.
 
+> **NOTE:** We additionally fixed the following CVE by updating the logback version:
+> - CVE-2023-6378
+
 # Amazon Kinesis Client Library for Python
 
 [![Version](https://img.shields.io/pypi/v/amazon-kclpy.svg?style=flat)](https://pypi.org/project/amazon-kclpy/) [![UnitTestCoverage](https://github.com/awslabs/amazon-kinesis-client-python/actions/workflows/run-unit-tests.yml/badge.svg)](https://github.com/awslabs/amazon-kinesis-client-python/actions/workflows/run-unit-tests.yml)
