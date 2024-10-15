@@ -1,2 +1,2 @@
-boto
-argparse
+boto3
+argparse ; python_version <= "3.1"
