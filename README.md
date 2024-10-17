@@ -159,22 +159,6 @@ all languages.
 
 ## Release Notes
 
-### Release 2.1.5 (May 29, 2024)
-* Fixed CI due to different macOS architecture [PR #246](https://github.com/awslabs/amazon-kinesis-client-python/pull/246)
-* Added necessary Java SDKs to run sample [PR #248](https://github.com/awslabs/amazon-kinesis-client-python/pull/248)
-* Upgraded boto dependency to boto3 [PR #245](https://github.com/awslabs/amazon-kinesis-client-python/pull/245)
-* Upgraded AWS SDK from 2.19.2 to 2.25.11 [PR #248](https://github.com/awslabs/amazon-kinesis-client-python/pull/248)
-* Upgraded aws-java-sdk from 1.12.370 to 1.12.668 [PR #248](https://github.com/awslabs/amazon-kinesis-client-python/pull/248)
-
-### Release 2.1.4 (April 23, 2024)
-* Upgraded KCL and KCL-Multilang dependencies from 2.5.2 to 2.5.8 [PR #239](https://github.com/awslabs/amazon-kinesis-client-python/pull/239)
-* Upgraded ion-java from 1.5.1 to 1.11.4 [PR #243](https://github.com/awslabs/amazon-kinesis-client-python/pull/243)
-* Upgraded logback version from 1.3.0 to 1.3.12 [PR #242](https://github.com/awslabs/amazon-kinesis-client-python/pull/242)
-* Upgraded io.netty dependency from 4.1.86.Final to 4.1.94.Final [PR #234](https://github.com/awslabs/amazon-kinesis-client-python/pull/234)
-* Upgraded Google Guava dependency from 32.0.0-jre to 32.1.1-jre [PR #234](https://github.com/awslabs/amazon-kinesis-client-python/pull/234)
-* Upgraded jackson-databind from 2.13.4 to 2.13.5 [PR #234](https://github.com/awslabs/amazon-kinesis-client-python/pull/234)
-* Upgraded protobuf-java from 3.21.5 to 3.21.7 [PR #234](https://github.com/awslabs/amazon-kinesis-client-python/pull/234)
-
 ### Release 2.1.3 (August 8, 2023)
 * Added the ability to specify STS endpoint and region [PR #221](https://github.com/awslabs/amazon-kinesis-client-python/pull/230)
 * Upgraded KCL and KCL-Multilang Dependencies from 2.5.1 to 2.5.2 [PR #221](https://github.com/awslabs/amazon-kinesis-client-python/pull/230)
